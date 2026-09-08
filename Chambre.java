@@ -19,6 +19,14 @@ public class Chambre {
         return joursRestants;
     }
 
+    public TypeChambre getType() {
+        return type;
+    }
+
+    public boolean estLibre() {
+        return nomOccupant == null;
+    }
+
     public enum TypeChambre {
         SIMPLE, 
         DOUBLE,
