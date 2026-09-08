@@ -1,3 +1,5 @@
+package fr.dampierre;
+
 public class Chambre {
     private int numero;
     private int joursRestants;

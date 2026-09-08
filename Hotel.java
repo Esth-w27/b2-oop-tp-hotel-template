@@ -1,3 +1,5 @@
+package fr.dampierre;
+
 import java.util.ArrayList;
 import java.util.List;
 
